@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>José Rizal | National Hero</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <i class="fas fa-feather-alt"></i>
+          <span>José Rizal</span>
+        </div>
+        <!-- In your index.html navbar section -->
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="index.html" class="active"
+              ><i class="fas fa-home"></i> Home</a
+            >
+          </li>
+          <li>
+            <a href="timeline.html"
+              ><i class="fas fa-timeline"></i> Life & Timeline</a
+            >
+          </li>
+          <li>
+            <a href="education.html"
+              ><i class="fas fa-graduation-cap"></i> Education</a
+            >
+          </li>
+          <li>
+            <a href="literary-works.html"
+              ><i class="fas fa-book"></i> Literary Works</a
+            >
+          </li>
+          <li>
+            <a href="legacy.html"><i class="fas fa-monument"></i> Legacy</a>
+          </li>
+        </ul>
+        <div class="menu-btn" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">National Hero of the Philippines</div>
+          <h1>Dr. José Protasio Rizal</h1>
+          <p class="hero-subtitle">
+            Ophthalmologist • Novelist • Poet • Reformer • Patriot
+          </p>
+          <p class="hero-description">
+            A visionary whose pen ignited the flames of national consciousness
+            and whose life became the cornerstone of Philippine independence.
+          </p>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">35</span>
+              <span class="stat-label">Years Lived</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">2</span>
+              <span class="stat-label">Masterpiece Novels</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">22</span>
+              <span class="stat-label">Languages Spoken</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-frame">
+            <img
+              src="https://newsfeed.ph/wp-content/uploads/2024/11/Jose-Rizal-1.jpg"
+            />
+            <div class="image-caption">Portrait of Dr. José Rizal, c. 1890</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION SECTION -->
+    <section class="intro">
+      <div class="section-header">
+        <h2>The Man Behind the Legend</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+          Understanding the life and contributions of the Philippines' most
+          revered national hero
+        </p>
+      </div>
+
+      <div class="intro-content">
+        <div class="intro-text">
+          <p>
+            <strong>José Protasio Rizal Mercado y Alonso Realonda</strong> (June
+            19, 1861 – December 30, 1896) was a Filipino nationalist, writer,
+            and polymath whose works and ideals sparked the Philippine
+            Revolution against Spanish colonial rule.
+          </p>
+          <p>
+            As a visionary reformist, Rizal advocated for peaceful change
+            through education and civic reform. His novels,
+            <em>Noli Me Tángere</em> and <em>El Filibusterismo</em>, exposed the
+            injustices of Spanish colonial rule and awakened Filipino national
+            consciousness.
+          </p>
+          <p>
+            A true Renaissance man, Rizal was not only a novelist but also a
+            physician, sculptor, painter, linguist, scientist, and farmer. His
+            multifaceted talents and unwavering patriotism made him a symbol of
+            Filipino intellect and dignity.
+          </p>
+
+          <div class="quick-facts">
+            <h3><i class="fas fa-star"></i> Quick Facts</h3>
+            <div class="facts-grid">
+              <div class="fact">
+                <i class="fas fa-calendar-day"></i>
+                <div><strong>Born:</strong> June 19, 1861, Calamba, Laguna</div>
+              </div>
+              <div class="fact">
+                <i class="fas fa-calendar-times"></i>
+                <div>
+                  <strong>Died:</strong> December 30, 1896, Manila (executed)
+                </div>
+              </div>
+              <div class="fact">
+                <i class="fas fa-language"></i>
+                <div>
+                  <strong>Languages:</strong> 22 including Spanish, French,
+                  German
+                </div>
+              </div>
+              <div class="fact">
+                <i class="fas fa-user-graduate"></i>
+                <div>
+                  <strong>Education:</strong> University of Santo Tomas, Madrid,
+                  Heidelberg
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="intro-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h3>Literary Legacy</h3>
+            <p>
+              His novels are considered foundational texts of Philippine
+              literature and nationalism.
+            </p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3>Medical Practice</h3>
+            <p>
+              As an ophthalmologist, he restored sight to his mother and many
+              countrymen.
+            </p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i class="fas fa-globe-americas"></i>
+            </div>
+            <h3>Global Citizen</h3>
+            <p>
+              Traveled extensively through Europe, Asia, and America, absorbing
+              diverse cultures.
+            </p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i class="fas fa-fist-raised"></i>
+            </div>
+            <h3>Peaceful Reformer</h3>
+            <p>
+              Advocated for change through education and civic participation
+              rather than violence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE SECTION -->
+    <section class="quote-section">
+      <div class="quote-container">
+        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+        <blockquote>
+          "He who does not know how to look back at where he came from will
+          never get to his destination."
+        </blockquote>
+        <div class="quote-author">— José Rizal</div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <i class="fas fa-feather-alt"></i>
+            <span>José Rizal</span>
+          </div>
+          <p>
+            This tribute page honors the life, works, and legacy of Dr. José
+            Rizal, the national hero of the Philippines.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Created By:</h3>
+          <ul>
+            <h5>Kirk Matthew Orense</h5>
+            <h5>Joel Gillang</h5>
+            <h5>James Racho</h5>
+            <h5>Jhon Rovic Gito</h5>
+            <h5>Zion Lozano</h5>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; Website about Rizal | SBIT-3O</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
